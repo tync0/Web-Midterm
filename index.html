@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <link rel="shortcut icon" href="resources/favicon.ico">
+        <link rel="apple-touch-icon" sizes="180x180" href="resources/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="resources/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="resources/favicon-16x16.png">
+        <link rel="stylesheet" href="css/main.min.css">
+        <title>Robin.W</title>
+    </head>
+    <body class="body">
+        <div class="wrapper">
+            <header class="header">
+                <div class="header__container">
+                    <img class="header__logo" src="assets/img/logo.webp" alt="Logo Robin.W" width="80" height="80">
+                    <nav class="header__menu menu">
+                        <ul class="menu__list ul">
+                            <li class="menu__item">
+                                <a href="#experience" class="menu__link">Experience</a>
+                            </li>
+                            <li class="menu__item">
+                                <a href="#work" class="menu__link">Work</a>
+                            </li>
+                            <li class="menu__item">
+                                <a href="#photo" class="menu__link">Photography</a>
+                            </li>
+                            <li class="menu__item">
+                                <a href="#contact" class="menu__link">Contact</a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <button type="button" class="butger-btn" aria-label="open menu" aria-expanded="false">
+                        <span></span>
+                    </button>
+                </div>
+            </header>
+            <main class="page">
+                <section class="page__top top">
+                    <div class="top__wrap">
+                        <picture class="top__img">
+                            <img src="assets/img/tunc.jpg" alt="photo of the designer" width="660" height="500" loading="lazy">
+                        </picture>
+                        <div class="top__text">
+                            <h1 class="top__titile">
+                                I’m Tunjay Isgandarli. A Mobile Developer <span>based in AZERBAIJAN.</span>
+                            </h1>
+                            <p class="top__description">I’m probably the most passionate designer you will ever get to work with. If you have a great project that needs some amazing skills, I’m your guy.</p>
+                        </div>
+                    </div>
+                </section>
+                <section class="page__photo photo section" id="photo">
+                    <div class="photo__container">
+                        <h3 class="photo__subtitle subtitle">Photography</h3>
+                        <p class="photo__description">Here is a collection of my best travel pictures that I took while travelling places all around the world.</p>
+                        <div class="photo__tab tab">
+                            <div class="tab__menu">
+                                <button class="tab__btn tab__btn--active" type="button" data-button="content-1">ITALY</button>
+                                <button class="tab__btn" type="button" data-button="content-2">AUSTRALIA</button>
+                                <button class="tab__btn" type="button" data-button="content-3">INDIA</button>
+                                <button class="tab__btn" type="button" data-button="content-4">BRAZIL</button>
+                            </div>
+                            <div class="tab__wrapper tab__wrapper--active" id="content-1">
+                                <div class="tab__item item-tab">
+                                    <picture class="item-tab__photo">
+                                        <img src="assets/img/italy1.webp" alt="A street in Italy" width="306" height="420" loading="lazy">
+                                    </picture>
+                                </div>
+                                <div class="tab__item item-tab">
+                                    <picture class="item-tab__photo">
+                                        <img src="assets/img/italy2.jpg" alt="a cafe overlooking a canal in Venice" width="306" height="420" loading="lazy">
+                                    </picture>
+                                </div>
+                                <div class="tab__item item-tab">
+                                    <picture class="item-tab__photo">
+                                        <img src="assets/img/italy3.jpeg" alt="canal in Venice" width="306" height="420" loading="lazy">
+                                    </picture>
+                                </div>
+                                <div class="tab__item item-tab">
+                                    <picture class="item-tab__photo">
+                                        <img src="assets/img/italy4.jpg" alt="photo of the city on the mountain" width="306" height="420" loading="lazy">
+                                    </picture>
+                                </div>
+                            </div>
+                            <div class="tab__wrapper" id="content-2">
+                                <div class="tab__item item-tab">
+                                    <picture class="item-tab__photo">
+                                        <img src="assets/img/aust1.webp" alt="Photo of the city of Sydney in the evening" width="306" height="420" loading="lazy">
+                                    </picture>
+                                </div>
+                                <div class="tab__item item-tab">
+                                    <picture class="item-tab__photo">
+                                        <img src="assets/img/aust2.avif" alt="Photo of a kangaroo" width="306" height="420" loading="lazy">
+                                    </picture>
+                                </div>
+                                <div class="tab__item item-tab">
+                                    <picture class="item-tab__photo">
+                                        <img src="assets/img/aust3.webp" alt="Photo of the city. A bridge of skyscrapers and a bay with ships are depicted" width="306" height="420" loading="lazy">
+                                    </picture>
+                                </div>
+                            </div>
+                            <div class="tab__wrapper" id="content-3">
+                                <div class="tab__item item-tab">
+                                    <picture class="item-tab__photo">
+                                        <img src="assets/img/india.avif" alt="Photograph of the Taj Mahal" width="306" height="420" loading="lazy">
+                                    </picture>
+                                </div>
+                                <div class="tab__item item-tab">
+                                    <picture class="item-tab__photo">
+                                        <img src="assets/img/india1.webp" alt="Photograph of a temple in India" width="306" height="420" loading="lazy">
+                                    </picture>
+                                </div>
+                                <div class="tab__item item-tab">
+                                    <picture class="item-tab__photo">
+                                        <img src="assets/img/india2.jpg" alt="Photograph of a temple in India" width="306" height="420" loading="lazy">
+                                    </picture>
+                                </div>
+                            </div>
+                            <div class="tab__wrapper" id="content-4">
+                                <div class="tab__item item-tab">
+                                    <picture class="item-tab__photo">
+                                        <img src="assets/img/br1.webp" alt="Photo of carnival in Brazil. Depicted is a girl in a carnival costume" width="306" height="420" loading="lazy">
+                                    </picture>
+                                </div>
+                                <div class="tab__item item-tab">
+                                    <picture class="item-tab__photo">
+                                        <img src="assets/img/br2.jpg" alt="Photo of the night city from a bird's eye view" width="306" height="420" loading="lazy">
+                                    </picture>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="page__contact contact section" id="contact">
+                    <div class="contact__container">
+                        <div class="contact__text">
+                            <h3 class="contact__subtitle subtitle">Let’s get started</h3>
+                            <p class="contact__description">Now that you know a lot about me, let me know if you are interested to work with me.</p>
+                        </div>
+                        <form class="contact__form form" action="#" method="post">
+                            <label for="name">Name</label>
+                            <input id="name" name="user-name" type="text">
+                            <label for="email">Email</label>
+                            <input id="email" name="user-email" type="email">
+                            <label for="message">Message</label>
+                            <textarea name="message" id="message"></textarea>
+                            <button type="submit">Let’s get started</button>
+                        </form>
+                    </div>
+                </section>
+            </main>
+            <footer class="footer">
+                <div class="footer__container">
+                    <div class="footer__wrap">
+                        <div class="footer__menu">
+                            <ul class="footer__list-menu">
+                                <li class="footer__item-menu">
+                                    <a href="#!" class="footer__link-menu">Home</a>
+                                </li>
+                                <li class="footer__item-menu">
+                                    <a href="#!" class="footer__link-menu">About</a>
+                                </li>
+                                <li class="footer__item-menu">
+                                    <a href="#!" class="footer__link-menu">Work</a>
+                                </li>
+                                <li class="footer__item-menu">
+                                    <a href="#!" class="footer__link-menu">Process</a>
+                                </li>
+                            </ul>
+                            <ul class="footer__list-menu">
+                                <li class="footer__item-menu">
+                                    <a href="#!" class="footer__link-menu">Store</a>
+                                </li>
+                                <li class="footer__item-menu">
+                                    <a href="#!" class="footer__link-menu">Blog</a>
+                                </li>
+                                <li class="footer__item-menu">
+                                    <a href="#!" class="footer__link-menu">Reading List</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="footer__copy">Not Copyright 2020 • Robin Williams. Webflow cloneable</div>
+                </div>
+            </footer>
+        </div>
+        <script src="scripts/main.min.js"></script>
+        <script>
+            document.addEventListener('DOMContentLoaded', function () {
+            
+                function clearActiveClasses(elements) {
+                    elements.forEach(function (element) {
+                        element.classList.remove('tab__btn--active');
+                        element.classList.remove('tab__wrapper--active');
+                    });
+                }
+            
+                const tabButtons = document.querySelectorAll('.tab__btn');
+                const tabContents = document.querySelectorAll('.tab__wrapper');
+            
+                tabButtons.forEach(function (btn) {
+                    btn.addEventListener('click', function () {
+                        clearActiveClasses(tabButtons);
+                        clearActiveClasses(tabContents);
+            
+                        btn.classList.add('tab__btn--active');
+            
+                        const contentId = btn.getAttribute('data-button');
+                        const content = document.getElementById(contentId);
+                        if (content) {
+                            content.classList.add('tab__wrapper--active');
+                        }
+                    });
+                });
+            });
+        </script>
+    </body>
+</html>
